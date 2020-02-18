@@ -48,6 +48,8 @@ module.exports = (env) => ({
     publicPath: '/assets/preact_build/',
     disableHostCheck: true,
     historyApiFallback: true,
+    contentBasePublicPath: '/homepage',
+    openPage: 'homepage',
   },
   performance: {
     hints: false,
